@@ -443,6 +443,13 @@
   cursor: default;
   background-color: transparent;
 }
+.datepicker .timepicker:hover {
+  background: none;
+}
+.datepicker .timepicker .time {
+  width: auto;
+  margin: 2px;
+}
 .input-append.date .add-on i,
 .input-prepend.date .add-on i {
   cursor: pointer;
