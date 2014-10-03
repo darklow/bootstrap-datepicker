@@ -1075,10 +1075,10 @@
 			if (!date){
 				this.dates.clear();
 			}
-			else if (ix !== -1){
+			else if (ix !== -1 && this.o.multidate > 1){
 				this.dates.remove(ix);
 			}
-			else {
+			else if (ix === -1){
 				this.dates.push(date);
 			}
 			if (typeof this.o.multidate === 'number')
